@@ -1,0 +1,235 @@
+body{
+    padding: 0px;
+	margin: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand img
+{
+    width: 140px;
+    height: 180px;
+}
+nav ul
+{
+    margin-left: 80px;
+}
+nav ul li a 
+{
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+nav h6{
+  display: none;
+}
+nav .search{
+  display: none;
+}
+nav .cart{
+  display: none;
+}
+nav form
+{
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar .navbar-toggler{
+    float: left;
+    margin-top: 20px;
+  }
+  .navbar-brand img{
+    display: none;
+  }
+  nav h6{
+    display: inline;
+    font-size: 20px;
+  }
+  nav a.search{
+    float: left;
+    display: block;
+    margin-top: 20px;
+    color: black;
+  }
+  nav a.cart{
+    float: right;
+    display: block;
+    margin-top: 20px;
+    color: black;
+  }
+}
+
+
+#user
+{
+    margin-top: 50px;
+    padding: 20px;
+    margin-left: 15px;
+}
+#cart
+{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.background
+{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 39%;
+  font-size: 25px;
+  top: 144%;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+.bottom-left-art{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 50%;
+  top: 143%;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+.bottom-left-show{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 65%;
+  top: 143%;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.small
+{
+    position: absolute;
+      top: 120%;
+      left: 51px;
+      height: 260px;
+      width: 300px;
+}
+
+#artist
+{
+    margin-top: 90px;
+}
+#artist h5
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#artist h6
+{
+  font-size: 18px;
+}
+.follow
+{
+    background: black;
+    color: white;
+    border-radius: 6px;
+    margin-left: 20%;
+}
+.follow h8
+{
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+.social-media
+{
+    margin-left: 5px;
+    padding: 15px;
+}
+.social-media i
+{
+  padding: 4px;
+}
+.about-text
+{
+  padding: 20px;
+  margin-left: 120px;
+  font-size: 16px;
+  margin-top: 70px;
+}
+
+.more-from-artist
+{
+  margin-left: 162px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/* Float four columns side by side */
+.columns {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  margin-left: 30px;
+}
+
+.columns h5
+{
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 70%;
+}
+
+.columns h6
+{
+  text-align: center;
+  padding-left: 70%;
+
+}
+.card
+{
+  height: 100%;
+  left: 50%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 12px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
