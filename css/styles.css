@@ -19,7 +19,7 @@ nav{
 .custom-toggler .navbar-toggler-icon {
             background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-        } 
+        }
 nav ul
 {
     margin-left: 80px;
@@ -48,6 +48,46 @@ nav form
 }
 
 @media screen and (max-width: 800px) {
+  .navbar .navbar-toggler{
+    float: left;
+    margin-top: 20px;
+  }
+  .navbar-brand img{
+    display: none;
+  }
+  nav h6{
+    display: inline;
+    font-size: 20px;
+  }
+  nav a.search{
+    float: left;
+    display: block;
+    margin-top: 20px;
+    color: black;
+  }
+  nav a.cart{
+    float: right;
+    display: block;
+    margin-top: 20px;
+    color: black;
+  }
+  .main .small{
+    display: none;
+  }
+  #cart{
+    display: none;
+  }
+  .bottom-left-art{
+    display: none;
+  }
+  .bottom-left-show{
+    display: none;
+  }
+  .bottom-left{
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
   .navbar .navbar-toggler{
     float: left;
     margin-top: 20px;
